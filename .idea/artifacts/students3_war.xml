@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="students3:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>students3</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="students3-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="students3:war exploded" />
+    </root>
+  </artifact>
+</component>
